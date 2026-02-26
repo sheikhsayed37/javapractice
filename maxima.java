@@ -1,0 +1,26 @@
+import java.util.Scanner;
+public class maxima 
+{
+    public static void main(String[] args)
+    {
+        Scanner sc= new Scanner(System.in);
+        int[] number=new int[5];
+        for(int i=0;i<5;i++)
+        {
+         number[i]=sc.nextInt();
+
+        }
+      int max =number[0];
+      for(int i=0;i<5;i++)
+      {
+        if(max<number[i])
+        {
+            max=number[i];
+        }
+         System.out.println(max);
+      }
+    
+    }
+}
+//input: 5 10 15 20 25
+//Output: 25
