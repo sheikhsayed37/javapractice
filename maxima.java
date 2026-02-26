@@ -22,5 +22,5 @@ public class maxima {
         sc.close();
     }
 }
-//input: 5 10 15 20 25
+//input: 5 10 15 20 25  // input gola opore nice diba
 //Output: 25
